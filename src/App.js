@@ -395,7 +395,7 @@ export default function App() {
           send({type:"FAIL"});
         }}
       >
-        <source src="/fox.mp4" type="video/mp4" />
+        <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4" />
       </video>
 
       {["paused", "playing", "ended"].some(subState =>
